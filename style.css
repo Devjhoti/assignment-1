@@ -68,6 +68,7 @@ body{
     background-size: 100%;
     padding-left: 70px;
     margin-bottom: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -81,4 +82,51 @@ body{
 #paragraph2{
     padding-right: 100px;
     line-height: 40px;
+}
+.bottom-section{
+    background-image: url(./images/food/bottom-bg.png);
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:1%;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    height: 800px;
+}
+.Recipe{
+    font-size: 40px;
+    color: rgb(252, 251, 251);
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    
+    
+
+}
+.quarter-div{
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+    background-image: linear-gradient(gray,whitesmoke);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(49, 49, 49);
+    margin-right: 80px;
+    
+
+}
+.quarter-div img{
+    width: 100%;
+}
+    
+.quarter-div p{
+    color: whitesmoke;
+    padding-right: 100px;
+    
+    
+}
+footer{
+    text-align: center;
+   background-image:linear-gradient(whitesmoke,gray);
+   height: 200px;
+}
+small{
+    font-weight: 800;
 }
