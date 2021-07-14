@@ -67,7 +67,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     padding-left: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 280px;
     padding-bottom: 100px;
     
 }
@@ -85,13 +85,14 @@ body{
 }
 .bottom-section{
     background-image: url(./images/food/bottom-bg.png);
-    padding-top: 5px;
+    margin-top: -10%;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding:1%;
-    margin-bottom: 100px;
-    padding-bottom: 100px;
+    
+    margin-bottom: 25px;
+    padding-bottom: 20px;
     height: 800px;
+    
 }
 .Recipe{
     font-size: 40px;
@@ -124,9 +125,38 @@ body{
 }
 footer{
     text-align: center;
-   background-image:linear-gradient(whitesmoke,gray);
+   background-color:rgba(128, 128, 128, 0.288);
    height: 200px;
 }
 small{
-    font-weight: 800;
+    font-weight: 400;
+}
+.feedback{
+    display: flex;
+    background-image: url(./images/food/korola.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: -200px;
+    
+}
+.feedback h1{
+    font-size: 100px;
+    color: rgba(43, 23, 61, 0.801);
+}
+.Join{
+    margin-top: -100px;
+}
+.Join a{
+    margin-left: 36%;
+}
+#email{
+    margin-bottom: 10%;
+    margin-top: -18%;
+    margin-left: 25%;
+}
+.foot-content{
+    padding-top: 2%;
 }
