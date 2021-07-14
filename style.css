@@ -22,13 +22,21 @@ body{
 }
 .flexible-container{
     display: flex;
-    width: 50%;
+    
 }
 .half-div{
     padding-left:70px ;
+    
     font-size: 30px;
     color: rgb(43, 23, 61);
     font-family: 'Rubik', sans-serif;
+    width: 50%;
+}
+#top-left{
+    padding-top: 50px;
+}
+#top-image{
+    width: 100%;
 }
 .paragraph{
     font-family: 'Poppins', sans-serif;
